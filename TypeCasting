@@ -1,0 +1,17 @@
+class convert {
+    public static void main(String[] args) {
+
+   int number = 97;
+	    
+   byte byteConversion = (byte)number;  
+   char charConversion = (char)number;
+   float floatConversion = number;
+
+   System.out.println("Conversion of "+ number +" into Byte: "
+                             + byteConversion);
+   System.out.println("Conversion of "+ number +" into Character: "
+                             + charConversion);
+   System.out.println("Conversion of "+ number +" into Float: "
+                             + floatConversion);
+}
+}
