@@ -1,8 +1,7 @@
 class Main {
     public static void main(String[] args) {
       
-      int num = 3553, reversedNum = 0, remainder;
-      
+      int num = 3553, reversedNum = 0, remainder;      
       int originalNum = num;
 
       while (num != 0) {
